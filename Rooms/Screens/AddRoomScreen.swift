@@ -4,7 +4,6 @@
 //
 //  Created by Mohammad Azam on 2/23/21.
 //
-
 import SwiftUI
 
 struct AddRoomScreen: View {
@@ -26,7 +25,6 @@ struct AddRoomScreen: View {
                         Button("Save") {
                             addRoomVM.saveRoom()
                             presentation.wrappedValue.dismiss()
-                            
                         }
                         Spacer()
                     }
@@ -43,3 +41,4 @@ struct AddRoomScreen_Previews: PreviewProvider {
         AddRoomScreen()
     }
 }
+

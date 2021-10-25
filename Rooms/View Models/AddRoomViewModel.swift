@@ -19,19 +19,18 @@ class AddRoomViewModel: ObservableObject {
     
     init() {
         coreDM = CoreDataManager.shared
-        
     }
     
     func saveRoom() {
+        
         let room = Room(context: coreDM.persistentContainer.viewContext)
         room.name = name
         room.width = Double(width) ?? 0.0
         room.length = Double(length) ?? 0.0
         room.color = UIColor(color)
         
-        
         coreDM.save()
+        
     }
-    
     
 }
