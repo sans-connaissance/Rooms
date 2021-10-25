@@ -12,6 +12,7 @@
 		4139F50E2727288D00E6EC5C /* Room+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139F50C2727288D00E6EC5C /* Room+CoreDataProperties.swift */; };
 		4139F510272729E400E6EC5C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139F50F272729E400E6EC5C /* CoreDataManager.swift */; };
 		4139F51227272D0300E6EC5C /* AddRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139F51127272D0300E6EC5C /* AddRoomViewModel.swift */; };
+		4139F5142727324F00E6EC5C /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4139F5132727324F00E6EC5C /* UIColorTransformer.swift */; };
 		8DCCEC0F25EAA8FE00F0B0F3 /* RoomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCEC0E25EAA8FE00F0B0F3 /* RoomsApp.swift */; };
 		8DCCEC1325EAA8FF00F0B0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCEC1225EAA8FF00F0B0F3 /* Assets.xcassets */; };
 		8DCCEC1625EAA8FF00F0B0F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCEC1525EAA8FF00F0B0F3 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		4139F50C2727288D00E6EC5C /* Room+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Room+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4139F50F272729E400E6EC5C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4139F51127272D0300E6EC5C /* AddRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewModel.swift; sourceTree = "<group>"; };
+		4139F5132727324F00E6EC5C /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 		8DCCEC0B25EAA8FE00F0B0F3 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCCEC0E25EAA8FE00F0B0F3 /* RoomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsApp.swift; sourceTree = "<group>"; };
 		8DCCEC1225EAA8FF00F0B0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		8DCCEC2925EAFD7500F0B0F3 /* Transformers */ = {
 			isa = PBXGroup;
 			children = (
+				4139F5132727324F00E6EC5C /* UIColorTransformer.swift */,
 			);
 			path = Transformers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				4139F5082727265A00E6EC5C /* RoomModel.xcdatamodeld in Sources */,
 				4139F50D2727288D00E6EC5C /* Room+CoreDataClass.swift in Sources */,
 				8DCCEC2525EAA94400F0B0F3 /* RoomListScreen.swift in Sources */,
+				4139F5142727324F00E6EC5C /* UIColorTransformer.swift in Sources */,
 				4139F51227272D0300E6EC5C /* AddRoomViewModel.swift in Sources */,
 				8DCCEC2125EAA93500F0B0F3 /* AddRoomScreen.swift in Sources */,
 				4139F50E2727288D00E6EC5C /* Room+CoreDataProperties.swift in Sources */,
